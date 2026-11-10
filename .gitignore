@@ -1,0 +1,23 @@
+# Local .terraform directories containing downloaded plugins/providers
+.terraform/
+**/ .terraform/
+
+# Hide local system state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+**/*.tfstate
+**/*.tfstate.backup
+**/*.tfstate.lock.info
+
+# Ignore local variable files that contain real secret values
+*.tfvars
+*.tfvars.json
+**/*.tfvars
+**/*.tfvars.json
+
+# Ignore local SSH private keys if you created any in this directory
+*.pem
+*.pub
+**/*.pem
+**/*.pub
